@@ -10,7 +10,7 @@ const App = () => {
   };
 
   return (
-    <div className="container mx-auto py-10 font-Inter font-normal">
+    <div className="container mx-auto py-10 font-Inter font-normal px-3">
       <h1 className="text-4xl md:text-5xl font-extrabold text-center bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text py-2">
         Markdown Playground
       </h1>
