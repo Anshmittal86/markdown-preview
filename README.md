@@ -30,15 +30,15 @@ Follow these steps to set up the project locally:
    git clone https://github.com/Anshmittal86/markdown-preview.git
 
 2. Navigate to the project directory:
-```bash
-cd markdown-preview
+   ```bash
+   cd markdown-preview
 
 
 3. Install the dependencies:
-```bash
-npm i
+   ```bash
+   npm i
 
 
 4. Start the development server:
-```bash
-npm run dev
+   ```bash
+   npm run dev
