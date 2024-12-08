@@ -118,4 +118,4 @@ A: Yes, the app is designed to be mobile-friendly.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Anshmittal86/markdown-preview/blob/main/LICENSE.txt) file for details.
