@@ -51,3 +51,25 @@ Follow these steps to set up the project locally:
 
 Enjoy writing and previewing your Markdown effortlessly!
 
+## Demo
+
+Check out the live application [here](https://markdown-preview-virid.vercel.app/).  
+
+## Tech Stack
+
+- **React.js**: Frontend framework for creating interactive UIs.
+- **Marked.js**: A Markdown parser and compiler for rendering Markdown text.
+- **CSS**: Styling for a clean and responsive user interface.
+
+## Folder Structure 
+```
+markdown-preview/
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── utils/            # Utility functions (if needed)
+│   ├── App.js            # Main app component
+│   ├── index.js          # App entry point
+│   └── styles.css        # Global styles
+├── public/               # Static assets
+├── package.json          # Dependencies and scripts
+└── README.md             # Project documentation
