@@ -8,12 +8,11 @@ A **Markdown Previewer** app that converts Markdown text into formatted HTML pre
 3. [Usage](#usage)  
 4. [Demo](#demo)  
 5. [Tech Stack](#tech-stack)  
-6. [Folder Structure](#folder-structure)  
-7. [Contributions](#contributions)  
-8. [FAQs](#faqs)  
-9. [Future Enhancements](#future-enhancements)  
-10. [Acknowledgements](#acknowledgements)  
-11. [License](#license)
+6. [Contributions](#contributions)  
+7. [FAQs](#faqs)  
+8. [Future Enhancements](#future-enhancements)  
+9. [Acknowledgements](#acknowledgements)  
+10. [License](#license)
 
 ## Features
 - **Live Markdown Rendering**: View real-time updates as you write.
@@ -61,19 +60,7 @@ Check out the live application [here](https://markdown-preview-virid.vercel.app/
 - **Marked.js**: A Markdown parser and compiler for rendering Markdown text.
 - **CSS**: Styling for a clean and responsive user interface.
 
-## Folder Structure 
-   ```
-   markdown-preview/
-   ├── src/
-   │   ├── components/       #         Reusable UI components
-│   ├── utils/            # Utility functions (if needed)
-│   ├── App.js            # Main app component
-│   ├── index.js          # App entry point
-│   └── styles.css        # Global styles
-├── public/               # Static assets
-├── package.json          # Dependencies and scripts
-└── README.md             # Project documentation
----
+
 ## Contributions
 
 We welcome contributions! Here’s how you can contribute to the project:
