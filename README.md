@@ -2,8 +2,6 @@
 
 A **Markdown Previewer** app that converts Markdown text into formatted HTML preview in real-time.
 
----
-
 ## Table of Contents
 1. [Features](#features)  
 2. [Installation](#installation)  
@@ -17,15 +15,11 @@ A **Markdown Previewer** app that converts Markdown text into formatted HTML pre
 10. [Acknowledgements](#acknowledgements)  
 11. [License](#license)
 
----
-
 ## Features
 - **Live Markdown Rendering**: View real-time updates as you write.
 - **Syntax Highlighting**: Supports code blocks with proper styling.
 - **User-Friendly Interface**: Clean and intuitive layout for ease of use.
 - **Cross-Browser Compatibility**: Works across all major browsers.
-
----
 
 ## Installation
 
@@ -48,8 +42,6 @@ Follow these steps to set up the project locally:
 4. Start the development server:
    ```bash
    npm run dev
-
----
 
 ## Usage
 
