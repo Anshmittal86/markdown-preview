@@ -62,18 +62,18 @@ Check out the live application [here](https://markdown-preview-virid.vercel.app/
 - **CSS**: Styling for a clean and responsive user interface.
 
 ## Folder Structure 
-```
-markdown-preview/
-├── src/
-│   ├── components/       # Reusable UI components
+   ```
+   markdown-preview/
+   ├── src/
+   │   ├── components/       #         Reusable UI components
 │   ├── utils/            # Utility functions (if needed)
 │   ├── App.js            # Main app component
 │   ├── index.js          # App entry point
 │   └── styles.css        # Global styles
 ├── public/               # Static assets
 ├── package.json          # Dependencies and scripts
-└── README.md             # Project documentation```
-
+└── README.md             # Project documentation
+---
 ## Contributions
 
 We welcome contributions! Here’s how you can contribute to the project:
