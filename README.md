@@ -72,8 +72,7 @@ markdown-preview/
 │   └── styles.css        # Global styles
 ├── public/               # Static assets
 ├── package.json          # Dependencies and scripts
-└── README.md             # Project documentation
-
+└── README.md             # Project documentation```
 
 ## Contributions
 
