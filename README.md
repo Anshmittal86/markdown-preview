@@ -73,3 +73,63 @@ markdown-preview/
 ├── public/               # Static assets
 ├── package.json          # Dependencies and scripts
 └── README.md             # Project documentation
+
+
+## Contributions
+
+We welcome contributions! Here’s how you can contribute to the project:
+
+1. **Fork the repository** by clicking the "Fork" button at the top right of the page.
+2. **Clone the repository** to your local machine:
+   ```bash
+   git clone https://github.com/Anshmittal86/markdown-preview.git
+
+3. Create a new branch for your feature or bugfix:
+    ```bash
+    git checkout -b feature-name
+
+
+4. Make your changes and commit them with a meaningful message:
+    ```bash
+    git commit -m "Add feature-name"
+
+
+5. Push your changes to your fork:
+    ```bash
+    git push origin feature-name
+
+
+6. Submit a pull request with a description of the changes you made.
+
+## FAQs
+
+**Q: Does this app support all Markdown syntax?**  
+A: Yes, it supports common Markdown syntax like headings, lists, links, and images.
+
+**Q: How can I add new features?**  
+A: Fork the repository, add your features in a new branch, and submit a pull request.
+
+**Q: Can I use this app offline?**  
+A: Not at the moment, but you can run it locally by cloning the repository.
+
+**Q: Is this app responsive on mobile devices?**  
+A: Yes, the app is designed to be mobile-friendly.
+
+
+## Future Enhancements
+
+- **Offline Support**: Implement local storage or service workers to enable offline usage.
+- **Theme Options**: Add support for light and dark themes for better user experience.
+- **Real-Time Collaboration**: Enable users to share their markdown content and collaborate in real-time.
+- **More Markdown Features**: Extend support for advanced Markdown syntax, such as tables and footnotes.
+- **Export Options**: Add the ability to export Markdown content as HTML or PDF.
+
+## Acknowledgements
+
+- **React**: A JavaScript library for building user interfaces.
+- **Marked.js**: Markdown parser and compiler used for rendering Markdown content.
+- **CSS**: Used for styling and creating a clean, responsive layout.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
