@@ -1,29 +1,45 @@
-// Import the React library to build the component
-import React from "react";
-
-// Import DOMPurify to sanitize HTML content and prevent XSS attacks
-import DOMPurify from "dompurify";
-
-// Import the marked library to convert Markdown into HTML
+// Third-party imports
+import React, { useEffect, useMemo } from "react";
 import { marked } from "marked";
+import DOMPurify from "dompurify";
+import hljs from "highlight.js";
 
-// Define the MarkdownPreview component, which takes a "markdown" prop
+// CSS imports (theme styles for syntax highlighting)
+import "highlight.js/styles/github-dark.css";
+
+/**
+ * MarkdownPreview Component
+ *
+ * Converts Markdown to HTML, sanitizes it to prevent XSS,
+ * and applies syntax highlighting to code blocks.
+ *
+ * @param {Object} props
+ * @param {string} props.markdown - The Markdown string to preview.
+ */
 const MarkdownPreview = ({ markdown }) => {
-  // Convert the Markdown content to HTML using the "marked" library
-  const html = marked(markdown);
 
-  // Sanitize the HTML to ensure it doesn't contain any harmful scripts or elements
-  const safeHtml = DOMPurify.sanitize(html);
+  // Memoize the conversion and sanitization of the markdown for performance
+  const safeHtml = useMemo(() => {
 
-  // Return a div that displays the sanitized HTML content
-  // Use "dangerouslySetInnerHTML" to insert the HTML safely into the DOM
+    const rawHtml = marked(markdown);
+
+    return DOMPurify.sanitize(rawHtml);
+
+  }, [markdown]);
+
+  // Run syntax highlighting after every markdown update
+  useEffect(() => {
+
+    hljs.highlightAll();
+    
+  }, [markdown]);
+
   return (
     <div
-      className="prose max-w-full p-4 border rounded-md bg-gray-100" // Apply Tailwind CSS classes for styling
-      dangerouslySetInnerHTML={{ __html: safeHtml }} // Insert sanitized HTML into the div
+      className="prose max-w-full p-4 border rounded-md bg-gray-100"
+      dangerouslySetInnerHTML={{ __html: safeHtml }}
     />
   );
 };
 
-// Export the MarkdownPreview component so it can be used in other files
 export default MarkdownPreview;
